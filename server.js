@@ -12,8 +12,8 @@ const server = http.createServer((request, response) => {
   fs.appendFile('log.txt', logEntry, (err) => {
     if (err) console.error('Error writing to log file.');
   });
+  if (path === '/documentation') {
 
-  if (path.includes('documentation')) {
     fs.readFile('documentation.html', (err, data) => {
       if (err) {
         response.writeHead(500);
