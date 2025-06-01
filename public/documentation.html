@@ -3,9 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <title>Movie API Documentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #fff;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #eee;
+    }
+  </style>
 </head>
 <body>
   <h1>Welcome to the Movie API</h1>
   <p>This API serves data about top 10 movies. Visit <code>/movies</code> to get the list.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Request</th>
+        <th>URL</th>
+        <th>Response</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>GET all movies</td>
+        <td><code>/movies</code></td>
+        <td>Returns an array of all movies with details.</td>
+      </tr>
+      <tr>
+        <td>GET movie by title</td>
+        <td><code>/movies/:title</code></td>
+        <td>Returns a movie object (description, genre, director, image URL, featured).</td>
+      </tr>
+      <tr>
+        <td>GET genre by name</td>
+        <td><code>/genres/:name</code></td>
+        <td>Returns a genre object (name, description).</td>
+      </tr>
+      <tr>
+        <td>GET director by name</td>
+        <td><code>/directors/:name</code></td>
+        <td>Returns a director object (bio, birth year, death year).</td>
+      </tr>
+      <tr>
+        <td>Register new user</td>
+        <td><code>/users</code></td>
+        <td>Registers a new user. Requires JSON body with user data.</td>
+      </tr>
+      <tr>
+        <td>Update user info</td>
+        <td><code>/users/:username</code></td>
+        <td>Updates user’s info. Requires JSON body with updated data.</td>
+      </tr>
+      <tr>
+        <td>Add movie to favorites</td>
+        <td><code>/users/:username/favorites/:movieID</code></td>
+        <td>Returns a message confirming the movie was added.</td>
+      </tr>
+      <tr>
+        <td>Remove movie from favorites</td>
+        <td><code>/users/:username/favorites/:movieID</code></td>
+        <td>Returns a message confirming the movie was removed.</td>
+      </tr>
+      <tr>
+        <td>Deregister user</td>
+        <td><code>/users/:username</code></td>
+        <td>Returns a message confirming user email was removed.</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
