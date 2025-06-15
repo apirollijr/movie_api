@@ -1,10 +1,18 @@
+import models from './models.js';
+// index.js
+
 const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+const Models = require('./models.js');
 
 const app = express();
 const port = 8080;
+
+const Movies = Models.Movie;
+const Users = Models.User;
 
 // Sample data
 const movies = [
@@ -403,3 +411,5 @@ app.use((err, req, res, next) => {
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
+
+
