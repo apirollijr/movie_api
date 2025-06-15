@@ -3,90 +3,169 @@
 <head>
   <meta charset="UTF-8">
   <title>Movie API Documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f9f9f9;
+    pre {
+      background-color: #f8f9fa;
+      padding: 1rem;
+      border-left: 4px solid #ced4da;
+      overflow-x: auto;
     }
-    h1 {
-      color: #333;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-      background-color: #fff;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 12px;
-      text-align: left;
-    }
-    th {
-      background-color: #eee;
+    hr {
+      margin: 3rem 0;
     }
   </style>
 </head>
-<body>
-  <h1>Welcome to the Movie API</h1>
-  <p>This API serves data about top 10 movies. Visit <code>/movies</code> to get the list.</p>
-  <table>
-  <thead>
-    <tr>
-      <th>Request</th>
-      <th>URL</th>
-      <th>Response</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>GET all movies</td>
-      <td>/movies</td>
-      <td>Returns an array of all movies with full details.</td>
-    </tr>
-    <tr>
-      <td>GET movie by title</td>
-      <td>/movies/:title</td>
-      <td>Returns a single movie object by title (including genre, director, release year, etc.).</td>
-    </tr>
-    <tr>
-      <td>GET genre by name</td>
-      <td>/genres/:name</td>
-      <td>Returns a genre object with its name and description.</td>
-    </tr>
-    <tr>
-      <td>GET director by name</td>
-      <td>/directors/:name</td>
-      <td>Returns a director object with bio, birth year, and optional death year.</td>
-    </tr>
-    <tr>
-      <td>Register new user</td>
-      <td>/users</td>
-      <td>Creates a new user. Requires a JSON body with username, email, birthday, etc.</td>
-    </tr>
-    <tr>
-      <td>Update user info</td>
-      <td>/users/:username</td>
-      <td>Updates user information. Requires a JSON body with new values.</td>
-    </tr>
-    <tr>
-      <td>Add movie to favorites</td>
-      <td>/users/:username/favorites/:movieID</td>
-      <td>Returns a confirmation message after adding the movie to the user's favorites array.</td>
-    </tr>
-    <tr>
-      <td>Remove movie from favorites</td>
-      <td>/users/:username/favorites/:movieID</td>
-      <td>Returns a confirmation message after removing the movie from the user's favorites array.</td>
-    </tr>
-    <tr>
-      <td>Deregister user</td>
-      <td>/users/:username</td>
-      <td>Deletes a user and returns a confirmation message.</td>
-    </tr>
-  </tbody>
-</table>
+<body class="bg-light text-dark">
 
-</body>
-</html>
+  <div class="container py-5">
+    <h1 class="mb-4">🎬 Movie API Documentation</h1>
+    <p class="lead">This RESTful API allows users to get movie information, register and manage users, and favorite movies. All responses are in JSON.</p>
+    
+    <hr>
+
+    <section>
+      <h2>GET <code>/movies</code></h2>
+      <p><strong>Description:</strong> Returns a list of all movies.</p>
+      <p><strong>Method:</strong> GET</p>
+      <p><strong>Response Example:</strong></p>
+      <pre>{
+    "_id": "60f1c...",
+    "Title": "Inception",
+    "Description": "A thief who steals corporate secrets...",
+    "Genre": { "Name": "Sci-Fi", "Description": "Mind-bending..." },
+    "Director": { "Name": "Christopher Nolan", "Bio": "...", "Birth": "1970-07-30T00:00:00.000Z" },
+    "Actors": ["Leonardo DiCaprio"],
+    "ImagePath": "/images/inception.jpg",
+    "Featured": true
+  
+      }</pre>
+
+  <hr>
+
+  <h2>GET /movies/:title</h2>
+  <p><strong>Description:</strong> Returns data for a single movie by title.</p>
+  <p><strong>Method:</strong> GET</p>
+  <p><strong>URL Example:</strong> /movies/Inception</p>
+  <p><strong>Response Example:</strong></p>
+  <pre>{
+  "_id": "60f1c...",
+  "Title": "Inception",
+  "Description": "...",
+  "Genre": { "Name": "Sci-Fi", "Description": "..." },
+  "Director": { "Name": "Christopher Nolan", "Bio": "...", "Birth": "1970-07-30T00:00:00.000Z" }
+}</pre>
+
+  <hr>
+
+  <h2>GET /genres/:name</h2>
+  <p><strong>Description:</strong> Returns genre info by genre name.</p>
+  <p><strong>Method:</strong> GET</p>
+  <p><strong>URL Example:</strong> /genres/Sci-Fi</p>
+  <p><strong>Response Example:</strong></p>
+  <pre>{
+  "Name": "Sci-Fi",
+  "Description": "Mind-bending science fiction..."
+}</pre>
+
+  <hr>
+
+  <h2>GET /directors/:name</h2>
+  <p><strong>Description:</strong> Returns director info by name.</p>
+  <p><strong>Method:</strong> GET</p>
+  <p><strong>URL Example:</strong> /directors/Christopher%20Nolan</p>
+  <p><strong>Response Example:</strong></p>
+  <pre>{
+  "Name": "Christopher Nolan",
+  "Bio": "...",
+  "Birth": "1970-07-30T00:00:00.000Z"
+}</pre>
+
+  <hr>
+
+  <h2>POST /users</h2>
+  <p><strong>Description:</strong> Register a new user.</p>
+  <p><strong>Method:</strong> POST</p>
+  <p><strong>Request Body:</strong></p>
+  <pre>{
+  "Username": "johndoe",
+  "Password": "secret",
+  "Email": "johndoe@example.com",
+  "Birthday": "1990-01-01"
+}</pre>
+  <p><strong>Response Example:</strong></p>
+  <pre>{
+  "_id": "60f...",
+  "Username": "johndoe",
+  "Email": "johndoe@example.com",
+  "Birthday": "1990-01-01T00:00:00.000Z",
+  "FavoriteMovies": []
+}</pre>
+
+  <hr>
+
+  <h2>PUT /users/:username</h2>
+  <p><strong>Description:</strong> Update a user's profile info.</p>
+  <p><strong>Method:</strong> PUT</p>
+  <p><strong>URL Example:</strong> /users/johndoe</p>
+  <p><strong>Request Body (any or all fields):</strong></p>
+  <pre>{
+  "Username": "johnny",
+  "Password": "newpass",
+  "Email": "newemail@example.com",
+  "Birthday": "1991-01-01"
+}</pre>
+  <p><strong>Response Example:</strong></p>
+  <pre>{
+  "_id": "60f...",
+  "Username": "johnny",
+  "Email": "newemail@example.com",
+  "Birthday": "1991-01-01T00:00:00.000Z",
+  "FavoriteMovies": []
+}</pre>
+
+  <hr>
+
+  <h2>POST /users/:username/favorites/:movieID</h2>
+  <p><strong>Description:</strong> Add a movie to a user's favorites.</p>
+  <p><strong>Method:</strong> POST</p>
+  <p><strong>URL Example:</strong> /users/johndoe/favorites/60f123abc456</p>
+  <p><strong>Response Example:</strong></p>
+  <pre>{
+  "message": "Movie \"Inception\" added to johndoe's favorites",
+  "FavoriteMovies": ["60f123abc456"]
+}</pre>
+
+  <hr>
+
+  <h2>DELETE /users/:username/favorites/:movieID</h2>
+  <p><strong>Description:</strong> Remove a movie from a user's favorites.</p>
+  <p><strong>Method:</strong> DELETE</p>
+  <p><strong>URL Example:</strong> /users/johndoe/favorites/60f123abc456</p>
+  <p><strong>Response Example:</strong></p>
+  <pre>{
+  "message": "Movie \"Inception\" removed from johndoe's favorites",
+  "FavoriteMovies": []
+}</pre>
+
+  <hr>
+
+<h2>DELETE /users/:username</h2>
+<p><strong>Description:</strong> Deregister (delete) a user by username.</p>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>URL Example:</strong> /users/johndoe</p>
+<p><strong>Response Example:</strong></p>
+<pre><code>{
+  "message": "User \"johndoe\" has been deregistered",
+  "user": {
+    "_id": "60f...",
+    "Username": "johndoe",
+    "Email": "johndoe@example.com",
+    ...
+  }
+}</code></pre>
+
+
+  </div>   
