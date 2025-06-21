@@ -1,9 +1,15 @@
-
 const express = require('express');
 const morgan = require('morgan');
-const path = require('path');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const cors = require('cors');
+const passport = require('passport');
+const path = require('path');
+
+// Import passport configuration file
+require('./passport');
+
+// Connect to MongoDB
 mongoose.connect('mongodb://localhost:27017/movieapi', {
   useNewUrlParser: true,
   useUnifiedTopology: true
@@ -11,44 +17,49 @@ mongoose.connect('mongodb://localhost:27017/movieapi', {
 .then(() => console.log('✅ Connected to MongoDB'))
 .catch(err => console.error('❌ MongoDB connection error:', err));
 
+// Import models
 const Models = require('./models.js');
-
-const app = express();
-const port = 8080;
-
 const Movies = Models.Movie;
 const Users = Models.User;
 
-// Middleware for logging
-app.use(morgan('common'));
+// Initialize Express app
+const app = express();
+const port = process.env.PORT || 8080;
 
-// Middleware for parsing JSON in request body
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+// Middleware setup
+app.use(morgan('common')); // Logging
+app.use(bodyParser.json()); // Parse JSON request bodies
+app.use(bodyParser.urlencoded({ extended: true })); // Parse URL-encoded request bodies
+app.use(cors()); // Enable CORS for all routes
+app.use(express.static('public')); // Serve static files from public directory
 
-// Serve static files from /public
-app.use(express.static('public'));
+// Initialize Passport
+app.use(passport.initialize());
 
-// Default GET route
+// Import auth module and pass app to it
+const auth = require('./auth')(app);
+
+// Create a reusable authentication middleware
+const authenticate = passport.authenticate('jwt', { session: false });
+
+// Default route - public
 app.get('/', (req, res) => {
   res.send('Welcome to the Movie API!');
 });
 
-// GET all movies
-app.get('/movies', async (req, res) => {
+// GET all movies (protected route)
+app.get('/movies', authenticate, async (req, res) => {
   try {
     const movies = await Movies.find();
     res.json(movies);
   } catch (err) {
-    console.error('❌ GET /movies failed:', err); // Add this
+    console.error('❌ GET /movies failed:', err);
     res.status(500).send('Error retrieving movies');
   }
 });
 
-
-
-// GET a single movie by title
-app.get('/movies/:title', async (req, res) => {
+// GET movie by title (protected route)
+app.get('/movies/:title', authenticate, async (req, res) => {
   try {
     const movie = await Movies.findOne({ Title: req.params.title });
     if (movie) {
@@ -61,17 +72,15 @@ app.get('/movies/:title', async (req, res) => {
   }
 });
 
-
-// GET genre by name
-app.get('/genres/:name', async (req, res) => {
+// GET genre by name (protected route)
+app.get('/genres/:name', authenticate, async (req, res) => {
   try {
-    // Using Mongoose to query the database
     const movies = await Movies.find({
       'Genre.Name': {$regex: new RegExp('^' + req.params.name + '$', 'i')}
     });
     
     if (movies.length > 0) {
-      // Extract the genre info from the first matching movie
+      // Extract genre from the first movie that matches
       const genre = movies[0].Genre;
       res.status(200).json(genre);
     } else {
@@ -83,16 +92,15 @@ app.get('/genres/:name', async (req, res) => {
   }
 });
 
-// GET director by name
-app.get('/directors/:name', async (req, res) => {
+// GET director by name (protected route)
+app.get('/directors/:name', authenticate, async (req, res) => {
   try {
-    // Using Mongoose to query the database
     const movies = await Movies.find({
-      'Director.Name': {$regex: req.params.name, $options: 'i'}
+      'Director.Name': {$regex: new RegExp(req.params.name, 'i')}
     });
     
     if (movies.length > 0) {
-      // Extract the director info from the first matching movie
+      // Extract director from the first movie that matches
       const director = movies[0].Director;
       res.json(director);
     } else {
@@ -104,7 +112,7 @@ app.get('/directors/:name', async (req, res) => {
   }
 });
 
-// Register new user
+// Register new user (public route - no authentication required)
 app.post('/users', async (req, res) => {
   const { Username, Password, Email, Birthday } = req.body;
 
@@ -136,8 +144,8 @@ app.post('/users', async (req, res) => {
   }
 });
 
-// Update user information
-app.put('/users/:username', async (req, res) => {
+// Update user information (protected route)
+app.put('/users/:username', authenticate, async (req, res) => {
   const { Username, Password, Email, Birthday } = req.body;
 
   try {
@@ -168,8 +176,9 @@ app.put('/users/:username', async (req, res) => {
     res.status(500).json({ message: 'Error: ' + err.message });
   }
 });
-// Add movie to favorites
-app.post('/users/:username/favorites/:movieID', async (req, res) => {
+
+// Add movie to favorites (protected route)
+app.post('/users/:username/favorites/:movieID', authenticate, async (req, res) => {
   try {
     // Find the user by username
     const user = await Users.findOne({ Username: req.params.username });
@@ -207,8 +216,8 @@ app.post('/users/:username/favorites/:movieID', async (req, res) => {
   }
 });
 
-// Remove movie from favorites
-app.delete('/users/:username/favorites/:movieID', async (req, res) => {
+// Remove movie from favorites (protected route)
+app.delete('/users/:username/favorites/:movieID', authenticate, async (req, res) => {
   try {
     // Find the user by username
     const user = await Users.findOne({ Username: req.params.username });
@@ -246,12 +255,11 @@ app.delete('/users/:username/favorites/:movieID', async (req, res) => {
   }
 });
 
-// Deregister user
-app.delete('/users/:username', async (req, res) => {
+// Deregister user (protected route)
+app.delete('/users/:username', authenticate, async (req, res) => {
   try {
     // Find and remove the user
-    const user = await Users.findOneAndDelete({ Username: req.params.username });
-
+    const user = await Users.findOneAndRemove({ Username: req.params.username });
     
     if (!user) {
       return res.status(404).json({ message: `User "${req.params.username}" not found` });
@@ -267,14 +275,13 @@ app.delete('/users/:username', async (req, res) => {
   }
 });
 
-// Error-handling middleware
+// Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
-  res.status(500).send('Something went wrong!');
+  res.status(500).send('Something broke!');
 });
 
-app.listen(port, () => {
-  console.log(`Server is running at http://localhost:${port}`);
+// Start the server
+app.listen(port, '0.0.0.0', () => {
+  console.log(`✅ Server running on port ${port}`);
 });
-
-
