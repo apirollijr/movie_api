@@ -31,7 +31,8 @@ app.use(cors());
 app.use(express.static('public'));
 app.use(passport.initialize());
 
-const authenticate = passport.authenticate('jwt', { session: false });
+// Use basic auth strategy for now
+const authenticate = passport.authenticate('basic', { session: false });
 
 app.get('/', (req, res) => {
   res.send('Welcome to the Movie API!');
