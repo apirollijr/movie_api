@@ -1,6 +1,7 @@
 const passport = require('passport');
 const jwt = require('jsonwebtoken');
 const { jwtSecret } = require('./passport');
+const hashedPassword = Users.hashPassword(req.body.Password);
 
 /**
  * Auth module containing authentication-related endpoints and middleware
