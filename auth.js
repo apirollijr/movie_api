@@ -19,7 +19,7 @@ module.exports = (app) => {
    * @returns {Object} User object and JWT token
    */
   app.post('/login', (req, res, next) => {
-    passport.authenticate('local', { session: false }, (error, user, info) => {
+    passport.authenticate('basic', { session: false }, (error, user, info) => {
       // Handle authentication errors
       if (error || !user) {
         return res.status(400).json({
