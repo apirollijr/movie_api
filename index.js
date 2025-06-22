@@ -14,8 +14,6 @@ const Models = require('./models.js');
 const Movies = Models.Movie;
 const Users = Models.User;
 
-require('./passport');
-require('./auth')(app);
 
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
@@ -31,8 +29,11 @@ app.use(cors());
 app.use(express.static('public'));
 app.use(passport.initialize());
 
-// Use basic auth strategy for now
+
 const authenticate = passport.authenticate('local', { session: false });
+
+require('./passport');
+require('./auth')(app);
 
 app.get('/', (req, res) => {
   res.send('Welcome to the Movie API!');
