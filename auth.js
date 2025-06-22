@@ -1,3 +1,6 @@
+
+const Models = require('./models');
+const Users = Models.User;
 const passport = require('passport');
 const jwt = require('jsonwebtoken');
 const { jwtSecret } = require('./passport');
