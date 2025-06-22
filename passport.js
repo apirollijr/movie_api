@@ -1,5 +1,5 @@
 const passport = require('passport');
-const BasicStrategy = require('passport-http').BasicStrategy;
+const LocalStrategy = require('passport-local').Strategy;
 const JWTStrategy = require('passport-jwt').Strategy;
 const ExtractJWT = require('passport-jwt').ExtractJwt;
 const Models = require('./models.js');
@@ -10,25 +10,31 @@ const bcrypt = require('bcrypt');
 const jwtSecret = 'anthony'; // This should be in a config file in a real app
 
 /**
- * Basic strategy for username/password authentication
+ * Local strategy for username/password authentication
  */
-passport.use(new BasicStrategy(async (username, password, callback) => {
-  try {
-    const user = await Users.findOne({ Username: username });
-    if (!user) {
-      return callback(null, false, { message: 'Incorrect username.' });
-    }
+passport.use(new LocalStrategy(
+  {
+    usernameField: 'Username',
+    passwordField: 'Password'
+  },
+  async (username, password, callback) => {
+    try {
+      const user = await Users.findOne({ Username: username });
+      if (!user) {
+        return callback(null, false, { message: 'Incorrect username.' });
+      }
 
-    const isValid = await bcrypt.compare(password, user.Password);
-    if (!isValid) {
-      return callback(null, false, { message: 'Incorrect password.' });
-    }
+      const isValid = await bcrypt.compare(password, user.Password);
+      if (!isValid) {
+        return callback(null, false, { message: 'Incorrect password.' });
+      }
 
-    return callback(null, user);
-  } catch (error) {
-    return callback(error);
+      return callback(null, user);
+    } catch (error) {
+      return callback(error);
+    }
   }
-}));
+));
 
 /**
  * JWT strategy for token-based authentication
