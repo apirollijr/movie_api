@@ -10,33 +10,26 @@ const path = require('path');
 const bcrypt = require('bcrypt');
 const { check, validationResult } = require('express-validator');
 
-require('./passport');
+const Models = require('./models.js');
+const Movies = Models.Movie;
+const Users = Models.User;
 
+require('./passport');
+require('./auth')(app);
 
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
-
 .then(() => console.log('✅ Connected to MongoDB'))
 .catch(err => console.error('❌ MongoDB connection error:', err));
-
-const Models = require('./models.js');
-const Movies = Models.Movie;
-const Users = Models.User;
-
-
-
-
 
 app.use(morgan('common'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.use(express.static('public'));
-
 app.use(passport.initialize());
-require('./auth')(app);
 
 const authenticate = passport.authenticate('jwt', { session: false });
 
@@ -44,7 +37,45 @@ app.get('/', (req, res) => {
   res.send('Welcome to the Movie API!');
 });
 
-// Register new user
+app.get('/movies', authenticate, async (req, res) => {
+  try {
+    const movies = await Movies.find();
+    res.json(movies);
+  } catch (err) {
+    res.status(500).send(err);
+  }
+});
+
+app.get('/movies/:title', authenticate, async (req, res) => {
+  try {
+    const movie = await Movies.findOne({ Title: req.params.title });
+    if (!movie) return res.status(404).send('Movie not found');
+    res.json(movie);
+  } catch (err) {
+    res.status(500).send(err);
+  }
+});
+
+app.get('/genres/:name', authenticate, async (req, res) => {
+  try {
+    const movie = await Movies.findOne({ 'Genre.Name': req.params.name });
+    if (!movie) return res.status(404).send('Genre not found');
+    res.json(movie.Genre);
+  } catch (err) {
+    res.status(500).send(err);
+  }
+});
+
+app.get('/directors/:name', authenticate, async (req, res) => {
+  try {
+    const movie = await Movies.findOne({ 'Director.Name': req.params.name });
+    if (!movie) return res.status(404).send('Director not found');
+    res.json(movie.Director);
+  } catch (err) {
+    res.status(500).send(err);
+  }
+});
+
 app.post('/users',
   [
     check('Username', 'Username is required').notEmpty(),
@@ -55,75 +86,91 @@ app.post('/users',
   ],
   async (req, res) => {
     const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(422).json({ errors: errors.array() });
-    }
+    if (!errors.isEmpty()) return res.status(422).json({ errors: errors.array() });
 
     const { Username, Password, Email, Birthday } = req.body;
-
     try {
-      const userExists = await Users.findOne({ Username });
-      if (userExists) {
-        return res.status(400).json({ message: 'Username already exists' });
-      }
+      const existingUser = await Users.findOne({ Username });
+      if (existingUser) return res.status(400).send('Username already exists');
 
       const hashedPassword = Users.hashPassword(Password);
-
-      const user = await Users.create({
-        Username,
-        Password: hashedPassword,
-        Email,
-        Birthday
-      });
-
-      res.status(201).json(user);
+      const newUser = await Users.create({ Username, Password: hashedPassword, Email, Birthday });
+      res.status(201).json(newUser);
     } catch (err) {
-      console.error(err);
-      res.status(500).json({ message: 'Error: ' + err.message });
+      res.status(500).send('Error: ' + err.message);
     }
 });
 
-// Update user info
-app.put('/users/:username',
-  authenticate,
+app.put('/users/:username', authenticate,
   [
-    check('Username').optional().isLength({ min: 5 }).withMessage('Username must be at least 5 characters'),
-    check('Username').optional().isAlphanumeric().withMessage('Username contains non-alphanumeric characters'),
-    check('Password').optional().notEmpty().withMessage('Password is required'),
-    check('Email').optional().isEmail().withMessage('Email must be valid')
+    check('Username').optional().isLength({ min: 5 }),
+    check('Username').optional().isAlphanumeric(),
+    check('Password').optional().notEmpty(),
+    check('Email').optional().isEmail()
   ],
   async (req, res) => {
     const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(422).json({ errors: errors.array() });
-    }
+    if (!errors.isEmpty()) return res.status(422).json({ errors: errors.array() });
 
     const { Username, Password, Email, Birthday } = req.body;
-
     try {
-      const updateData = {};
-      if (Username) updateData.Username = Username;
-      if (Password) updateData.Password = Users.hashPassword(Password);
-      if (Email) updateData.Email = Email;
-      if (Birthday) updateData.Birthday = Birthday;
-
       const updatedUser = await Users.findOneAndUpdate(
         { Username: req.params.username },
-        { $set: updateData },
+        {
+          $set: {
+            Username,
+            Password: Password ? Users.hashPassword(Password) : undefined,
+            Email,
+            Birthday
+          }
+        },
         { new: true }
       );
-
-      if (!updatedUser) {
-        return res.status(404).json({ message: `User "${req.params.username}" not found` });
-      }
-
+      if (!updatedUser) return res.status(404).send('User not found');
       res.json(updatedUser);
     } catch (err) {
-      console.error(err);
-      res.status(500).json({ message: 'Error: ' + err.message });
+      res.status(500).send('Error: ' + err.message);
     }
 });
+
+app.post('/users/:username/favorites/:movieID', authenticate, async (req, res) => {
+  try {
+    const updatedUser = await Users.findOneAndUpdate(
+      { Username: req.params.username },
+      { $addToSet: { FavoriteMovies: req.params.movieID } },
+      { new: true }
+    );
+    if (!updatedUser) return res.status(404).send('User not found');
+    res.json(updatedUser);
+  } catch (err) {
+    res.status(500).send('Error: ' + err.message);
+  }
+});
+
+app.delete('/users/:username/favorites/:movieID', authenticate, async (req, res) => {
+  try {
+    const updatedUser = await Users.findOneAndUpdate(
+      { Username: req.params.username },
+      { $pull: { FavoriteMovies: req.params.movieID } },
+      { new: true }
+    );
+    if (!updatedUser) return res.status(404).send('User not found');
+    res.json(updatedUser);
+  } catch (err) {
+    res.status(500).send('Error: ' + err.message);
+  }
+});
+
+app.delete('/users/:username', authenticate, async (req, res) => {
+  try {
+    const deletedUser = await Users.findOneAndDelete({ Username: req.params.username });
+    if (!deletedUser) return res.status(404).send('User not found');
+    res.send('User was deleted');
+  } catch (err) {
+    res.status(500).send('Error: ' + err.message);
+  }
+});
+
 app.listen(port, '0.0.0.0', () => {
   console.log(`✅ Server running on port ${port}`);
 });
-// Add other routes (GET /movies, /directors, favorites, etc.) below...
