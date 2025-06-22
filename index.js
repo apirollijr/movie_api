@@ -22,7 +22,9 @@ const Movies = Models.Movie;
 const Users = Models.User;
 
 const app = express();
-const port = process.env.PORT || 8080;
+app.listen(port, '0.0.0.0', () => {
+  console.log(`✅ Server running on port ${port}`);
+});
 
 app.use(morgan('common'));
 app.use(bodyParser.json());
