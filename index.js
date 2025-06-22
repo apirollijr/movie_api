@@ -32,7 +32,7 @@ app.use(express.static('public'));
 app.use(passport.initialize());
 
 // Use basic auth strategy for now
-const authenticate = passport.authenticate('basic', { session: false });
+const authenticate = passport.authenticate('local', { session: false });
 
 app.get('/', (req, res) => {
   res.send('Welcome to the Movie API!');
