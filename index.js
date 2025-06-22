@@ -1,4 +1,6 @@
 const express = require('express');
+const app = express();
+const port = process.env.PORT || 8080;
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -21,12 +23,9 @@ const Models = require('./models.js');
 const Movies = Models.Movie;
 const Users = Models.User;
 
-const app = express();
-const port = process.env.PORT || 8080;
 
-app.listen(port, '0.0.0.0', () => {
-  console.log(`✅ Server running on port ${port}`);
-});
+
+
 
 app.use(morgan('common'));
 app.use(bodyParser.json());
@@ -122,5 +121,7 @@ app.put('/users/:username',
       res.status(500).json({ message: 'Error: ' + err.message });
     }
 });
-
+app.listen(port, '0.0.0.0', () => {
+  console.log(`✅ Server running on port ${port}`);
+});
 // Add other routes (GET /movies, /directors, favorites, etc.) below...
