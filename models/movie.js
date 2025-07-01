@@ -1,13 +1,20 @@
 const mongoose = require('mongoose');
 
 const movieSchema = new mongoose.Schema({
-  title: String,
-  overview: String,
-  release_date: String,
-  genre_ids: [Number],
-  poster_path: String,         // raw path from TMDB
-  cover_image_url: String,     // full image URL (optional but useful)
-  tmdb_id: Number
+  Title: String,
+  Description: String,
+  Genre: {
+    Name: String,
+    Description: String
+  },
+  Director: {
+    Name: String,
+    Bio: String,
+    Birth: Date,
+    Death: Date
+  },
+  ImagePath: String,
+  Featured: Boolean
 });
 
-module.exports = mongoose.model('Movie', movieSchema);
+module.exports = mongoose.models.Movie || mongoose.model('Movie', movieSchema);

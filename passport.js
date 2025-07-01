@@ -2,8 +2,8 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 const JWTStrategy = require('passport-jwt').Strategy;
 const ExtractJWT = require('passport-jwt').ExtractJwt;
-const Models = require('./models.js');
-const Users = Models.User;
+const User = require('./models/user');
+
 const bcrypt = require('bcrypt');
 
 // JWT secret key - in production, use environment variables
@@ -19,7 +19,7 @@ passport.use(new LocalStrategy(
   },
   async (username, password, callback) => {
     try {
-      const user = await Users.findOne({ Username: username });
+      const user = await User.findOne({ Username: username });
       if (!user) {
         return callback(null, false, { message: 'Incorrect username.' });
       }
@@ -46,7 +46,7 @@ passport.use(new JWTStrategy(
   },
   async (jwtPayload, callback) => {
     try {
-      const user = await Users.findById(jwtPayload._id);
+      const user = await User.findById(jwtPayload._id);
       if (!user) {
         return callback(null, false);
       }

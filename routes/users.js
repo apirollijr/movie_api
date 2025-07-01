@@ -3,8 +3,8 @@ const router = express.Router();
 const passport = require('passport');
 const bcrypt = require('bcrypt');
 const { check, validationResult } = require('express-validator');
-const Models = require('../models.js');
-const Users = Models.User;
+const Movie = require('../models/movie');
+const User = require('../models/user');
 
 const authenticate = passport.authenticate('jwt', { session: false });
 
@@ -20,11 +20,11 @@ router.post('/',
 
     const { Username, Password, Email, Birthday } = req.body;
     try {
-      const existingUser = await Users.findOne({ Username });
+      const existingUser = await User.findOne({ Username });
       if (existingUser) return res.status(400).send('Username already exists');
 
-      const hashedPassword = Users.hashPassword(Password);
-      const newUser = await Users.create({ Username, Password: hashedPassword, Email, Birthday });
+      const hashedPassword = User.hashPassword(Password);
+      const newUser = await User.create({ Username, Password: hashedPassword, Email, Birthday });
       res.status(201).json(newUser);
     } catch (err) {
       res.status(500).send('Error: ' + err.message);
@@ -43,12 +43,12 @@ router.put('/:username', authenticate,
 
     const { Username, Password, Email, Birthday } = req.body;
     try {
-      const updatedUser = await Users.findOneAndUpdate(
+      const updatedUser = await User.findOneAndUpdate(
         { Username: req.params.username },
         {
           $set: {
             Username,
-            Password: Password ? Users.hashPassword(Password) : undefined,
+            Password: Password ? User.hashPassword(Password) : undefined,
             Email,
             Birthday
           }
@@ -64,7 +64,7 @@ router.put('/:username', authenticate,
 
 router.post('/:username/favorites/:movieID', authenticate, async (req, res) => {
   try {
-    const updatedUser = await Users.findOneAndUpdate(
+    const updatedUser = await User.findOneAndUpdate(
       { Username: req.params.username },
       { $addToSet: { FavoriteMovies: req.params.movieID } },
       { new: true }
@@ -78,7 +78,7 @@ router.post('/:username/favorites/:movieID', authenticate, async (req, res) => {
 
 router.delete('/:username/favorites/:movieID', authenticate, async (req, res) => {
   try {
-    const updatedUser = await Users.findOneAndUpdate(
+    const updatedUser = await User.findOneAndUpdate(
       { Username: req.params.username },
       { $pull: { FavoriteMovies: req.params.movieID } },
       { new: true }
@@ -92,7 +92,7 @@ router.delete('/:username/favorites/:movieID', authenticate, async (req, res) =>
 
 router.delete('/:username', authenticate, async (req, res) => {
   try {
-    const deletedUser = await Users.findOneAndDelete({ Username: req.params.username });
+    const deletedUser = await User.findOneAndDelete({ Username: req.params.username });
     if (!deletedUser) return res.status(404).send('User not found');
     res.send('User was deleted');
   } catch (err) {

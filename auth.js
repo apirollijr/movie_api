@@ -3,7 +3,7 @@ const passport = require('passport');
 const express = require('express');
 
 const router = express.Router();
-const { jwtSecret } = require('./passport');
+const { jwtSecret } = process.env.JWT_SECRET || 'defaultSecret';
 
 module.exports = (app) => {
   app.use(passport.initialize());

@@ -8,26 +8,22 @@ const bodyParser = require('body-parser');
 const passport = require('passport');
 const path = require('path');
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-
-
-// Passport and Auth setup
-require('./passport');
-require('./auth')(app);
-
-// Middleware
-app.use(morgan('common'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors());
-app.use(express.static('public'));
-app.use(passport.initialize());
-
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => console.log('✅ Connected to MongoDB'))
   .catch(err => console.error('❌ MongoDB connection error:', err));
+
+// Middleware
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cors());
+app.use(morgan('common'));
+app.use(express.static('public'));
+app.use(passport.initialize());
+
+// Passport and Auth setup
+require('./passport');
+require('./auth')(app);
 
 // Root route
 app.get('/', (req, res) => {
