@@ -29,10 +29,15 @@
 
 const express = require('express');
 const router = express.Router();
+const Movie = require('../models/movie');
 
-router.get('/', (req, res) => {
-  res.send('Movies route is working!');
+router.get('/', async (req, res) => {
+  try {
+    const movies = await Movie.find();
+    res.json(movies);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
 });
 
 module.exports = router;
-
