@@ -27,12 +27,12 @@
 
 // module.exports = router;
 
-router.get('/', async (req, res) => {
-  try {
-    const movies = await Movie.find();
-    res.json(movies);
-  } catch (err) {
-    res.status(500).send(err);
-  }
+const express = require('express');
+const router = express.Router();
+
+router.get('/', (req, res) => {
+  res.send('Movies route is working!');
 });
+
+module.exports = router;
 
