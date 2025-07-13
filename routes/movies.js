@@ -4,7 +4,9 @@ const passport = require('passport');
 const Movie = require('../models/movie');
 const User = require('../models/user');
 
-const authenticate = passport.authenticate('jwt', { session: false });
+// const authenticate = passport.authenticate('jwt', { session: false });
+const authenticate = (req, res, next) => next(); // TEMP: disable auth
+
 
 router.get('/', authenticate, async (req, res) => {
   try {
