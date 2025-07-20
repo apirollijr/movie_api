@@ -1,0 +1,3202 @@
+[
+  {
+    "Title": "Karate Kid: Legends",
+    "Description": "After a family tragedy, kung fu prodigy Li Fong is uprooted from his home in Beijing and forced to move to New York City with his mother. When a new friend needs his help, Li enters a karate competition – but his skills alone aren't enough. Li's kung fu teacher Mr. Han enlists original Karate Kid Daniel LaRusso for help, and Li learns a new way to fight, merging their two styles into one for the ultimate martial arts showdown.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jonathan Entwistle",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/AEgggzRr1vZCLY86MAp93li43z.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Ballerina",
+    "Description": "Taking place during the events of John Wick: Chapter 3 – Parabellum, Eve Macarro begins her training in the assassin traditions of the Ruska Roma.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Len Wiseman",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/2VUmvqsHb6cEtdfscEA6fqqVzLg.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Superman",
+    "Description": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
+    "Genre": {
+      "Name": "Science Fiction",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "James Gunn",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Ice Road: Vengeance",
+    "Description": "Big rig ice road driver Mike McCann travels to Nepal to scatter his late brother’s ashes on Mt. Everest. While on a packed tour bus traversing the deadly 12,000 ft. terrain of the infamous Road to the Sky, McCann and his mountain guide encounter a group of mercenaries and must fight to save themselves, the busload of innocent travelers, and the local villagers’ homeland.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jonathan Hensleigh",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/2vHQBX5L4yoExTa55KmGIg2Q5s3.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Almost Cops",
+    "Description": "When an overeager community officer and a reckless ex-detective are forced to team up, plenty of chaos ensues on the streets of Rotterdam.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Gonzalo Fernandez Carmona",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/7bcndiaTgu1Kj5a6qyCmsWYdtI.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Old Guard 2",
+    "Description": "Andy and her team of immortal warriors fight with renewed purpose as they face a powerful new foe threatening their mission to protect humanity.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Victoria Mahoney",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/wqfu3bPLJaEWJVk3QOm0rKhxf1A.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Heads of State",
+    "Description": "The UK Prime Minister and US President have a public rivalry that risks their countries' alliance. But when they become targets of a powerful enemy, they're forced to rely on each other as they go on a wild, multinational run. Allied with Noel, a brilliant MI6 agent, they must find a way to thwart a conspiracy that threatens the free world.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Ilya Naishuller",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/lVgE5oLzf7ABmzyASEVcjYyHI41.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Jurassic World Rebirth",
+    "Description": "Five years after the events of Jurassic World Dominion, covert operations expert Zora Bennett is contracted to lead a skilled team on a top-secret mission to secure genetic material from the world's three most massive dinosaurs. When Zora's operation intersects with a civilian family whose boating expedition was capsized, they all find themselves stranded on an island where they come face-to-face with a sinister, shocking discovery that's been hidden from the world for decades.",
+    "Genre": {
+      "Name": "Science Fiction",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Gareth Edwards",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/q0fGCmjLu42MPlSO9OYWpI5w86I.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Thunderbolts*",
+    "Description": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jake Schreier",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Ziam",
+    "Description": "In a fight for survival against a horrifying army of zombies, a former Muay Thai fighter must use skill, speed and grit to save his girlfriend.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Kulp Kaljareuk",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/yHYj2t3NzsjkHVYa0bPri4sMBsg.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Final Destination Bloodlines",
+    "Description": "Plagued by a violent recurring nightmare, college student Stefanie heads home to track down the one person who might be able to break the cycle and save her family from the grisly demise that inevitably awaits them all.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Adam B. Stein",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/6WxhEvFsauuACfv8HyoVX6mZKFj.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Dora and the Search for Sol Dorado",
+    "Description": "Dora, Diego, and their new friends trek through the perilous dangers of the Amazonian jungle in search of the ancient and powerful treasure of Sol Dorado to keep it out of enemy hands.",
+    "Genre": {
+      "Name": "Adventure",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Alberto Belli",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/r3d6u2n7iPoWNsSWwlJJWrDblOH.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Lilo & Stitch",
+    "Description": "The wildly funny and touching story of a lonely Hawaiian girl and the fugitive alien who helps to mend her broken family.",
+    "Genre": {
+      "Name": "Family",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Dean Fleischer Camp",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/tUae3mefrDVTgm5mRzqWnZK6fOP.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "KPop Demon Hunters",
+    "Description": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Chris Appelhans",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/43c1efKzA1kigNzY0HBzeoXp8LR.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "How to Train Your Dragon",
+    "Description": "On the rugged isle of Berk, where Vikings and dragons have been bitter enemies for generations, Hiccup stands apart, defying centuries of tradition when he befriends Toothless, a feared Night Fury dragon. Their unlikely bond reveals the true nature of dragons, challenging the very foundations of Viking society.",
+    "Genre": {
+      "Name": "Fantasy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Dean DeBlois",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/3lwlJL8aW6Wor9tKvME8VoMnBkn.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Bring Her Back",
+    "Description": "Following the death of their father, a brother and sister are introduced to their new sibling by their foster mother, only to learn that she has a terrifying secret.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Michael Philippou",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/tObSf1VzzHt9xB0csanFtb3DRjf.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "F1",
+    "Description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Joseph Kosinski",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/vqBmyAj0Xm9LnS1xe1MSlMAJyHq.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "The Hangman",
+    "Description": "Troubled father Leon takes son camping in Appalachia. Local cult summons evil Hangman demon. Son goes missing. Leon must confront cult, monster to find him amid rising body count.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Bruce Wemple",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/rij9Eh4RVXyPet8A1BNU8pDvtmu.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Muromachi Burai",
+    "Description": "Set in war-torn 15th century Kyoto, on the eve of the Onin War, the movie centers on a band of outlaws led by Hyoe (Oizumi) a scoundrel whose lethal sword skills place him at the tip of the spear in a deadly uprising against the corrupt Shogunate and its army, led by former friend-turned-archrival, Doken (Tsutsumi).",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Yu Irie",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/6U0i0HsSCvhRW4IpGzdead6QRo3.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Influencer",
+    "Description": "While struggling on a solo backpacking trip in Thailand, social media influencer Madison meets CW, who travels with ease and shows her a more uninhibited way of living. But CW's interest in her takes a darker turn.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Kurtis David Harder",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/mtXV301BF7pqwvRjsWhQo6sD10F.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Ritual",
+    "Description": "Two priests, one in crisis with his faith and the other confronting a turbulent past, must overcome their differences to perform a risky exorcism.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "David Midell",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/ktqPs5QyuF8SpKnipvVHb3fwD8d.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Z-O-M-B-I-E-S 4: Dawn of the Vampires",
+    "Description": "A new adventure dawns for Zed and Addison when their summer road trip takes an unexpected detour, landing them in the middle of yet another monster rivalry: Daywalkers vs. Vampires. Tensions flare when Zed and Addison find themselves acting as camp counselors between the two opposing supernatural factions. With the help of Eliza and Willa, they must convince sworn enemies Nova and Victor to try to unite their warring worlds before an even greater threat endangers them all.",
+    "Genre": {
+      "Name": "Music",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Paul Hoen",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/qIipTUGmAVjMH7ERtdzKkPuVYhP.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Sinners",
+    "Description": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Ryan Coogler",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/4CkZl1LK6a5rXBqJB2ZP77h3N5i.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "xXx",
+    "Description": "Xander Cage is your standard adrenaline junkie with no fear and a lousy attitude. When the US Government \"recruits\" him to go on a mission, he's not exactly thrilled. His mission: to gather information on an organization that may just be planning the destruction of the world, led by the nihilistic Yorgi.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Rob Cohen",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/xeEw3eLeSFmJgXZzmF2Efww0q3s.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Jokōsei torio: seikan shiken",
+    "Description": "Three high school girls. One is experienced, one has fantasies and one is curious. What more will they learn before graduation?",
+    "Genre": {
+      "Name": "Romance",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Nobuaki Shirai",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/9GSLrU0aoR6Pi2FQ0ttXV2thSxJ.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "A Minecraft Movie",
+    "Description": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they'll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve.",
+    "Genre": {
+      "Name": "Family",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jared Hess",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Madea's Destination Wedding",
+    "Description": "Madea packs her best floral dresses and a whole lot of chaos when the Simmons family heads to the Bahamas for her grandniece's whirlwind wedding.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Tyler Perry",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/jwMwRucnAROgWo9WLLmIqzHmmzi.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Long Distance",
+    "Description": "After crash-landing on an alien planet, an asteroid miner must contend with the challenges of his new surroundings, while making his way across the harsh terrain to the only other survivor – a woman who is trapped in her escape pod.",
+    "Genre": {
+      "Name": "Science Fiction",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Will Speck",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/m5NKltgQqqyoWJNuK18IqEGRG7J.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Brick",
+    "Description": "When a mysterious brick wall encloses their apartment building overnight, Tim and Olivia must unite with their wary neighbors to get out alive.",
+    "Genre": {
+      "Name": "Science Fiction",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Philip Koch",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/vTX9CxFNEQOlfXsgqec7xmc5UtD.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Mission: Impossible - The Final Reckoning",
+    "Description": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Christopher McQuarrie",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/z53D72EAOxGRqdr7KXXWp9dJiDe.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Twisters",
+    "Description": "A deadly patchwork of destructive cyclones is on an apocalyptic path of convergence at a populated Midwest city center. There, the twisters will merge into one mega tornado that threatens to obliterate the cities for hundreds of miles around.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Michael Su",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/9xjSHm0R9tII8JCWHS1VdbftFk1.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Seeds",
+    "Description": "A Mohawk woman is hired as a social media influencer but is caught in a deadly cat-and-mouse game as she's forced to go to war to preserve her people's heritage from corporate interests.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Kaniehtiio Horn",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/A0oZJp3CCqKSeNLhkXEtHUqDJmx.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Amateur",
+    "Description": "After his life is turned upside down when his wife is killed in a London terrorist attack, a brilliant but introverted CIA decoder takes matters into his own hands when his supervisors refuse to take action.",
+    "Genre": {
+      "Name": "Thriller",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "James Hawes",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/SNEoUInCa5fAgwuEBMIMBGvkkh.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "28 Years Later",
+    "Description": "Twenty-eight years since the rage virus escaped a biological weapons laboratory, now, still in a ruthlessly enforced quarantine, some have found ways to exist amidst the infected. One such group lives on a small island connected to the mainland by a single, heavily-defended causeway. When one member departs on a mission into the dark heart of the mainland, he discovers secrets, wonders, and horrors that have mutated not only the infected but other survivors as well.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Danny Boyle",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/8UdOukfuqbsCgvQGB8L2TaXeLFW.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Crazy Lizard",
+    "Description": "A young man climbs into the mountains to pick up a meteorite that has fallen there and is killed by something. The \"thing\" descends to the village and begins to eat the inhabitants one by one, terrorizing the entire island.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Cecil Man Ching Cheng",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/9TFaFsSXedaALXTzba349euDeoY.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Laila",
+    "Description": "Sonu Model, a renowned beautician from the old city, is forced to disguise himself as Laila, leading to a series of comedic, romantic, and action-packed events. Chaos ensues in this hilarious laugh riot",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Ram Narayan",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/l4gsNxFPGpzbq0D6QK1a8vO1lBz.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Diablo",
+    "Description": "Ex-con Kris Chaney seizes the daughter of a Colombian gangster to fulfill a noble promise to the young girl's mother. When her father enlists both the criminal underworld and a psychotic killer to exact his revenge, Kris relies on everything he's ever learned to stay alive and keep his word.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Ernesto Díaz Espinoza",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/uFQduVyYIinJy3eLjozgfl6Xtcn.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Unholy Trinity",
+    "Description": "Set against the turbulent backdrop of 1870s Montana, in the moments before the execution of Isaac Broadway, he gives his estranged son, Henry, an impossible task: murder the man who framed him for a crime he didn’t commit. Intent on fulfilling his promise, Henry travels to the remote town of Trinity, where an unexpected turn of events traps him in town and leaves him caught between Gabriel Dove, the town’s upstanding new sheriff, and a mysterious figure named St. Christopher.",
+    "Genre": {
+      "Name": "Western",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Richard Gray",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/gXYYIX5VesrDtR1iYJfvUnJBPLB.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "First Shift",
+    "Description": "NYPD veteran Mike and rookie Angela tackle a high-stakes day on New York's toughest streets, diving headfirst into a vortex of danger and action. Their adrenaline-fueled pursuits and unexpected threats unfold as they navigate perilous encounters. Amidst the chaos, intense challenges forge unbreakable bonds.",
+    "Genre": {
+      "Name": "Crime",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Uwe Boll",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/ajsGI4JYaciPIe3gPgiJ3Vw5Vre.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Hell of a Summer",
+    "Description": "When 24-year-old Jason Hochberg arrives for counsellor weekend at his beloved Camp Pineway, his biggest problem is feeling out of touch with his teenage co-workers. Little does he know; a masked killer has murdered camp owners John and Kathy and is preparing to strike again.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Billy Bryk",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/q9rRLc9pRDR8H6YoJTmXrBmivxD.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Belyas",
+    "Description": "Audrey Avila, Denise Esteban and Dani Yoshida star as sultry Belyas. A housewife who is tired of her controlling husband takes a different turn when two young prostitutes rent their apartment. As she befriends the two, she begins to admire the sexual freedom they have.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "G.B. Sampedro",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/zPIaNQaQKtCIOs95x4GmaJ6omco.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Candle in the Tomb: The Worm Valley",
+    "Description": "Adapted from the 3rd volume in the novel series \"Candle in the Tomb\" by Zhang Mu Ye. Hu Bayi, Wang Kaixuan, and Shiely Yang, infected with a curse, embark on a journey to King Xian's tomb to retrieve the Haochen Bead and break the curse. They face ancient organs, ghostly visions, explosive bugs, and a massive salamander.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Dai Yilin",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/7Hk1qxAvZi9H9cfBb4iHkoGjapH.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Jurassic World Dominion",
+    "Description": "Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history's most fearsome creatures.",
+    "Genre": {
+      "Name": "Adventure",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Colin Trevorrow",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/jbAvCACjLf1ZG0unB2tdmx5HAf1.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "A Working Man",
+    "Description": "Levon Cade left behind a decorated military career in the black ops to live a simple life working construction. But when his boss's daughter, who is like family to him, is taken by human traffickers, his search to bring her home uncovers a world of corruption far greater than he ever could have imagined.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "David Ayer",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/6FRFIogh3zFnVWn7Z6zcYnIbRcX.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "M3GAN 2.0",
+    "Description": "After the underlying tech for M3GAN is stolen and misused by a powerful defense contractor to create a military-grade weapon known as Amelia, M3GAN's creator Gemma realizes that the only option is to resurrect M3GAN and give her a few upgrades, making her faster, stronger, and more lethal.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Gerard Johnstone",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/4a63rQqIDTrYNdcnTXdPsQyxVLo.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Accountant²",
+    "Description": "When an old acquaintance is murdered, Wolff is compelled to solve the case. Realizing more extreme measures are necessary, Wolff recruits his estranged and highly lethal brother, Brax, to help. In partnership with Marybeth Medina, they uncover a deadly conspiracy, becoming targets of a ruthless network of killers who will stop at nothing to keep their secrets buried.",
+    "Genre": {
+      "Name": "Mystery",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Gavin O'Connor",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/kMDUS7VmFhb2coRfVBoGLR8ADBt.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Moana 2",
+    "Description": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "David G. Derrick Jr.",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Predator: Killer of Killers",
+    "Description": "While three of the fiercest warriors in human history—a Viking raider, a ninja in feudal Japan, and a WWII pilot—are killers in their own right, they are merely prey for their new opponent: the ultimate killer of killers.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Dan Trachtenberg",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/2XDQa6EmFHSA37j1t0w88vpWqj9.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "My Fault",
+    "Description": "Noah must leave her city, boyfriend, and friends to move into William Leister's mansion, the flashy and wealthy husband of her mother Rafaela. As a proud and independent 17 year old, Noah resists living in a mansion surrounded by luxury. However, it is there where she meets Nick, her new stepbrother, and the clash of their strong personalities becomes evident from the very beginning.",
+    "Genre": {
+      "Name": "Romance",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Domingo González",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/w46Vw536HwNnEzOa7J24YH9DPRS.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Squid Game: Making Season 2",
+    "Description": "From set designs to character arcs, get exclusive cast and director interviews on how Season 2 of the globally most-watched series was brought to life.",
+    "Genre": {
+      "Name": "Documentary",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/yQGaui0bQ5Ai3KIFBB45nTeIqad.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Clown in a Cornfield",
+    "Description": "Quinn and her father have just moved to the quiet town of Kettle Springs hoping for a fresh start. Instead, she discovers a fractured community that has fallen on hard times after the treasured Baypen Corn Syrup Factory burned down. As the locals bicker amongst themselves and tensions boil over, a sinister, grinning figure emerges from the cornfields to cleanse the town of its burdens, one bloody victim at a time.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Eli Craig",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/dkIigNrQI5kklCC9Cv9b2Vpr1Q0.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "周处除三嗨",
+    "Description": "",
+    "Genre": {
+      "Name": "Unknown",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/kiEEwMmWCngrjNmGfQ6CFt69Hn0.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "STRAW",
+    "Description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
+    "Genre": {
+      "Name": "Thriller",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Tyler Perry",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Sex Education Mistresses",
+    "Description": "An erotic comedy depicting the sex adventures of  young wives living in an apartment complex, that are not satisfied with just having sex with their husbands.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Akira Kato",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/xghWMg0pkBOdLHCTESyeyHU68wl.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Stepmom's Desire",
+    "Description": "Sang-jin, who was envious of her neighbor after getting a beautiful wife, Ask your wife's friend Gian to take over the son's extracurricular teacher, Sang-jin, who left work early, accidentally sees Gian's shower. A man who wants to have sex with his son's tutor, And a son who wants to have a good time with a young stepmom, Ji-an and Jin-hee, who want money, are disappointed with her husband, and Bin-jin gives her body to a young son.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Lee Dong-Joon",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/rYC6UyML4CU4zYiZVbDMrwnGyWW.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Ugly Stepsister",
+    "Description": "In a fairy-tale kingdom where beauty is a brutal business, Elvira battles to compete with her incredibly beautiful stepsister, and she will go to any length to catch the prince’s eye.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Emilie Blichfeldt",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/crX9rSg9EohybhkEe8iTQUCe55y.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Captain America: Brave New World",
+    "Description": "After meeting with newly elected U.S. President Thaddeus Ross, Sam finds himself in the middle of an international incident. He must discover the reason behind a nefarious global plot before the true mastermind has the entire world seeing red.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Julius Onah",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Snow White",
+    "Description": "Following the benevolent King's disappearance, the Evil Queen dominated the once fair land with a cruel streak. Princess Snow White flees the castle when the Queen, in her jealousy over Snow White's inner beauty, tries to kill her. Deep into the dark woods, she stumbles upon seven magical dwarves and a young bandit named Jonathan. Together, they strive to survive the Queen's relentless pursuit and aspire to take back the kingdom.",
+    "Genre": {
+      "Name": "Family",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Marc Webb",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/xWWg47tTfparvjK0WJNX4xL8lW2.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Sonic the Hedgehog 3",
+    "Description": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out an unlikely alliance in hopes of stopping Shadow and protecting the planet.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jeff Fowler",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Jurassic World",
+    "Description": "Twenty-two years after the events of Jurassic Park, Isla Nublar now features a fully functioning dinosaur theme park, Jurassic World, as originally envisioned by John Hammond.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Colin Trevorrow",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/rhr4y79GpxQF9IsfJItRXVaoGs4.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Deep Cover",
+    "Description": "Kat is an improv comedy teacher beginning to question if she’s missed her shot at success. When an undercover cop offers her the role of a lifetime, she recruits two of her students to infiltrate London’s gangland by impersonating dangerous criminals.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Tom Kingsley",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/1vXTHTbSQJs9r2hp4Uk08XzKwPp.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Jurassic World: Fallen Kingdom",
+    "Description": "Three years after Jurassic World was destroyed, Isla Nublar now sits abandoned. When the island's dormant volcano begins roaring to life, Owen and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level event.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "J.A. Bayona",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/270MrJNqJovumHXGE6SSt0zwUIF.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Warfare",
+    "Description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
+    "Genre": {
+      "Name": "War",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Ray Mendoza",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/srj9rYrjefyWqkLc6l2xjTGeBGO.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Kayara",
+    "Description": "A courageous and athletic teenager, Kayara dreams that she is destined to be the first female to break into the league of Chasquis - the official messengers of the Incan empire. As she learns what it takes to be a Chasqui along with its challenges, she tackles every mission she gets and discovers the ancient stories of her land and her people.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Cesar Zelada",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/tpZdjnoJ6Z3NsSxI6HjAIggrcEv.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "The Old Guard",
+    "Description": "Four undying warriors who've secretly protected humanity for centuries become targeted for their mysterious powers just as they discover a new immortal.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Gina Prince-Bythewood",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/cjr4NWURcVN3gW5FlHeabgBHLrY.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "How to Train Your Dragon",
+    "Description": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father.",
+    "Genre": {
+      "Name": "Fantasy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Dean DeBlois",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "The Fantastic Four: First Steps",
+    "Description": "Against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel's First Family is forced to balance their roles as heroes with the strength of their family bond, while defending Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer.",
+    "Genre": {
+      "Name": "Science Fiction",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Matt Shakman",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/x26MtUlwtWD26d0G0FXcppxCJio.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "K.O.",
+    "Description": "A former fighter must find the missing son of an opponent he accidentally killed years ago, taking on a brutally violent crime gang in Marseille.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Antoine Blossier",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/qcM2sUiAeP4zXwx4ADSvgc9S58k.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Gorge",
+    "Description": "Two highly trained operatives grow close from a distance after being sent to guard opposite sides of a mysterious gorge. When an evil below emerges, they must work together to survive what lies within.",
+    "Genre": {
+      "Name": "Romance",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Scott Derrickson",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/7iMBZzVZtG0oBug4TfqDb9ZxAOa.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Hunt the Wicked",
+    "Description": "The film tells the story of narcotics police officer Huang Mingjin and the \"mysterious figure\" Wei Yunzhou. Through completely different means and methods, in the process of calculating and wrestling with each other, they tear apart the facade of urban tranquility, exposing the underground drug network woven by the hidden hand \"Long Wang\", and ultimately eradicate the darkness with the sword of justice, revealing the dawn of light.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Chris Huo",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/m5UBHbEjQJx3AkRZWRY6A4l4ZDT.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Inside Out 2",
+    "Description": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Kelsey Mann",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Night",
+    "Description": "Night has to trick the mother of the missing child into sleeping to save her soul.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Ahmad Saleh",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/wtNHVaiEWwc05Iwzu1gravgvtDo.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "It's Worth It by Dani Rovira",
+    "Description": "Actor and comedian Dani Rovira returns to the stage with an honest and hilarious take on finding light even in life's darkest moments.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Dani Rovira",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/5KNQBVQkRrasvbFSBtOrnZzf8mJ.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Roundup: Punishment",
+    "Description": "'Monster Cop' Ma Seok-do investigates an illegal online gambling business led by a former STS Baek and an IT genius CEO Chang. Ma proposes an unexpected alliance to Jang and begins hunting down the criminals.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Heo Myeong-haeng",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/yk38mNoJpsswmk9o7i7eLhO4mc.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Skin. Like. Sun.",
+    "Description": "Real-life young couple Wim and Floor spend an afternoon in the sunwashed rooms of a crumbling home in Belgium. In a unique twist, this artistic erotic documentary is edited in nearly real-time. In the slowness, we get the build, the sweetness, and the sexiness. Forget about fingersnapping fast editing. Slow is where it’s at.",
+    "Genre": {
+      "Name": "Romance",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jennifer Lyon Bell",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/uCkANtG6ezb7hjRKVudY3PUcbvn.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Your Fault",
+    "Description": "The love between Noah and Nick seems unwavering despite their parents' attempts to separate them. But his job and her entry into college open up their lives to new relationships that will shake the foundations of both their relationship and the Leister family itself.",
+    "Genre": {
+      "Name": "Romance",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Domingo González",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/1sQA7lfcF9yUyoLYC0e6Zo3jmxE.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Utopia",
+    "Description": "A soldier searching for his missing wife breaks into a high-tech facility, believing she's been caught in a human trafficking ring. But beyond its walls, he finds a surreal, futuristic fantasy park where reality and illusion blur. As he navigates this seductive and dangerous world, a shocking truth pulls him deeper into a deadly game where nothing is as it seems.",
+    "Genre": {
+      "Name": "Mystery",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "James Bamford",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/yef0tY1Nw3BX8PJTfBLieqHj5Hw.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Despicable Me 4",
+    "Description": "Gru and Lucy and their girls—Margo, Edith and Agnes—welcome a new member to the Gru family, Gru Jr., who is intent on tormenting his dad. Gru also faces a new nemesis in Maxime Le Mal and his femme fatale girlfriend Valentina, forcing the family to go on the run.",
+    "Genre": {
+      "Name": "Family",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Chris Renaud",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Playboy Playmate Workout",
+    "Description": "Lynda Wiesmeier, Playmate of the Month July 1982, along with other Playmates",
+    "Genre": {
+      "Name": "Unknown",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Michael Trikilis",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/zNvrtwwOB1imM58d1Y4u3TQxKYW.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Elio",
+    "Description": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant to be.",
+    "Genre": {
+      "Name": "Family",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Madeline Sharafian",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/w2ARwtc1zoh0pyfwmyhpZHwuXgK.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Skin. Like. Sun.",
+    "Description": "Real-life young couple Wim and Floor spend an afternoon in the sunwashed rooms of a crumbling home in Belgium. In a unique twist, this artistic erotic documentary is edited in nearly real-time. In the slowness, we get the build, the sweetness, and the sexiness. Forget about fingersnapping fast editing. Slow is where it’s at.",
+    "Genre": {
+      "Name": "Romance",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jennifer Lyon Bell",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/uCkANtG6ezb7hjRKVudY3PUcbvn.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Playboy Playmate Workout",
+    "Description": "Lynda Wiesmeier, Playmate of the Month July 1982, along with other Playmates",
+    "Genre": {
+      "Name": "Unknown",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Michael Trikilis",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/zNvrtwwOB1imM58d1Y4u3TQxKYW.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Life After Fighting",
+    "Description": "Retired martial arts world champion Alex Faulkner has settled into a simple life, when the disappearance of two of his students leads to an unthinkable discovery close to home. Just when all hope of finding the children is lost, he locates the imprisoned girls and unsurfaces an international child trafficking operation, which draws him back into the fight of his life against those behind it.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Bren Foster",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/uKWAk4BHzyEOMmLKUDXoIAPhH36.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Phoenician Scheme",
+    "Description": "Wealthy businessman Zsa-zsa Korda appoints his only daughter, a nun, as sole heir to his estate. As Korda embarks on a new enterprise, they soon become the target of scheming tycoons, foreign terrorists, and determined assassins.",
+    "Genre": {
+      "Name": "Adventure",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Wes Anderson",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/jtEqpy0K1iVuCebRwWqT6BZ6jLN.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Deadpool & Wolverine",
+    "Description": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Shawn Levy",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Mufasa: The Lion King",
+    "Description": "Mufasa, a cub lost and alone, meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of a group of misfits searching for their destiny.",
+    "Genre": {
+      "Name": "Adventure",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Barry Jenkins",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/jbOSUAWMGzGL1L4EaUF8K6zYFo7.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "In the Lost Lands",
+    "Description": "A queen sends the powerful and feared sorceress Gray Alys to the ghostly wilderness of the Lost Lands in search of a magical power, where she and her guide, the drifter Boyce, must outwit and outfight both man and demon.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Paul W. S. Anderson",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/dDlfjR7gllmr8HTeN6rfrYhTdwX.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Aap Jaisa Koi",
+    "Description": "Shrirenu lives by tradition. Madhu lives unapologetically. When their paths cross, a tender romance unfolds — awkward, sweet but shadowed by patriarchy.",
+    "Genre": {
+      "Name": "Romance",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Vivek Soni",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/fV9dswGQCvbpVsj1JOTrYCeos8w.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Fierce Town",
+    "Description": "By the middle of the 12th century, the borders of the Mongolian Empire stretched from the Adriatic and Mediterranean Seas in the west to the southern lands of China in the east. The Mongolian army, under Khan Batu’s command, was known for its invisibility, destroying anyone who dared to challenge them. Yet, even within their central territories, some areas refused to bow to the Genghisids. Kozelsk was one of them. The Mongolian armies bypassed the high walls of this small town, considering that \"the skin of the wolf was not worth the risk of encountering its teeth\".However, one of the Khan’s commanders harbored a grudge against the town's citizens. Now, the people of Kozelsk must face a battle against the strongest army in the world, with no hope of victory. This is a story about people facing their death. Some try to escape, others are willing to do anything to survive, but most are prepared to protect their city from the relentless storms of the Mongolian hordes.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Konstantin Buslov",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/vYiq2eZKASt3YAbiVX8xpolZisG.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Victoria",
+    "Description": "Victoria is a woman betrayed, now on a mission for revenge and destroying anything that gets in her way.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Juan C. Bofill",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/aOSTW7ZitFAff06mZVXUnktejHY.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Until Dawn",
+    "Description": "One year after her sister Melanie mysteriously disappeared, Clover and her friends head into the remote valley where she vanished in search of answers. Exploring an abandoned visitor center, they find themselves stalked by a masked killer and horrifically murdered one by one...only to wake up and find themselves back at the beginning of the same evening.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "David F. Sandberg",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/juA4IWO52Fecx8lhAsxmDgy3M3.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Fernanda",
+    "Description": "An angry Latinx dyke in her twenties wants to make the world a better place, but can barely keep her own life together. Fernanda and her friends deconstruct their lives, fuck them up, and then continue to deconstruct them.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Mary Angélica Molina",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/q1eUNZ55yINqWZwSdzFQNSwKJiK.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Kung Fu Panda 4",
+    "Description": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Mike Mitchell",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/nqXsAaQsKw2gKpkfhIgjXNDRqg7.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Substance",
+    "Description": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Coralie Fargeat",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/lqoMzCcZYEFK729d6qzt349fB4o.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "28 Days Later",
+    "Description": "Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Danny Boyle",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/sQckQRt17VaWbo39GIu0TMOiszq.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Owner",
+    "Description": "An ordinary man’s life takes an unlikely turn when he saves the life of a high-ranking security officer in an accident.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Yury Bykov",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/dCe94o81DIYamwyKZ09ISF5MFrw.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "How to Train Your Dragon 2",
+    "Description": "Five years have passed since Hiccup and Toothless united the dragons and Vikings of Berk. Now, they spend their time charting unmapped territories. During one of their adventures, the pair discover a secret cave that houses hundreds of wild dragons -- and a mysterious dragon rider. Hiccup and Toothless find themselves at the center of a battle to protect Berk from a power-hungry warrior.",
+    "Genre": {
+      "Name": "Fantasy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Dean DeBlois",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/d13Uj86LdbDLrfDoHR5aDOFYyJC.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Interstellar",
+    "Description": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+    "Genre": {
+      "Name": "Adventure",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Christopher Nolan",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Mikaela",
+    "Description": "During the eve of the 6th of January, a record-breaking snowstorm sweeps across Spain. In the midst of its chaos, a group of robbers seizes the opportunity to hijack an armoured van. A few meters away is Leo, a finished policeman who has nothing to lose. With the unexpected aid of a young woman, he will try to stop the band from running away with their loot.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Daniel Calparsoro",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/xG8olkWOmoW78GbozKbS2UxYGEo.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "given the Movie: To the Sea",
+    "Description": "Mafuyu doubts his place in the band, but a familiar face could be the spark that brings him back to the stage.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Noriko Hashimoto",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/2VLnT5JtJ77ErG6GD3c1J628VLp.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "28 Days Later",
+    "Description": "Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Danny Boyle",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/sQckQRt17VaWbo39GIu0TMOiszq.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Ne Zha 2",
+    "Description": "Following the Tribulation, although the souls of Ne Zha and Ao Bing were preserved, their physical bodies will soon be destroyed. Tai Yi Zhen Ren plans to use the Seven Colored Lotus to reshape their physical forms, but encounters numerous difficulties. What will become of Ne Zha and Ao Bing?",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Yang Yu",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/5lUmWTGkEcYnXujixXn31o9q2T0.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "How to Train Your Dragon 2",
+    "Description": "Five years have passed since Hiccup and Toothless united the dragons and Vikings of Berk. Now, they spend their time charting unmapped territories. During one of their adventures, the pair discover a secret cave that houses hundreds of wild dragons -- and a mysterious dragon rider. Hiccup and Toothless find themselves at the center of a battle to protect Berk from a power-hungry warrior.",
+    "Genre": {
+      "Name": "Fantasy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Dean DeBlois",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/d13Uj86LdbDLrfDoHR5aDOFYyJC.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "The Wild Robot",
+    "Description": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Chris Sanders",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Shadow Force",
+    "Description": "Kyrah and Isaac were once the leaders of a multinational special forces group called Shadow Force. They broke the rules by falling in love, and in order to protect their son, they go underground. With a large bounty on their heads, and the vengeful Shadow Force hot on their trail, one family's fight becomes all-out war.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Joe Carnahan",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/9LCpHFXZgkqp2AWiYq0mGbfZauk.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Snow White",
+    "Description": "When the Queen’s jealousy turns deadly, Snow White must join forces with gnomes to fight back against her stepmother’s wrath.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Erica Duke",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/ilFLHU1OxUS1YDvUMCr8K3hW28r.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Sorority",
+    "Description": "A tale of seduction and mystery. A fearless pre-law student joins an elite sorority led by a powerful heiress. As secrets unfold, she’s torn between the woman who awakened her desire and a truth that could destroy them both.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Sigrid Polon",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/zibf9SwgiEW7Od5kwdRLSoQygRd.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Death of a Unicorn",
+    "Description": "A father and daughter accidentally hit and kill a unicorn while en route to a weekend retreat, where his billionaire boss seeks to exploit the creature’s miraculous curative properties.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Alex Scharfman",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/3cfCh85jacEOmi7Av69c2HGR0KK.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "How to Train Your Dragon: The Hidden World",
+    "Description": "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Dean DeBlois",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Ligaw",
+    "Description": "A sultry woman who charms the hearts of men in a remote province. Dolores, a devoted wife to her paraplegic husband, falls for a young mountaineer. What begins as a reckless escape turns into an affair drenched in passion and secrecy.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Omar Daroca",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/yc8V3KEnhvPrzXpdYTXdTvjpOb5.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Fear Cabin: The Last Weekend of Summer",
+    "Description": "Six friends rent a cabin in the middle of the woods on the last weekend of summer and set out to have an amazing time full of partying and drinking. Little do they know that they will be sharing this cabin with an unexpected guest, will they make it out alive?",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Brian Krainson",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/gaSqrnpSnTq5oYno0KnDyDXAF5r.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Flow",
+    "Description": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Gints Zilbalodis",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/imKSymKBK7o73sajciEmndJoVkR.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Venom: The Last Dance",
+    "Description": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Kelly Marcel",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/vGXptEdgZIhPg3cGlc7e8sNPC2e.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Owner",
+    "Description": "An ordinary man’s life takes an unlikely turn when he saves the life of a high-ranking security officer in an accident.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Yury Bykov",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/dCe94o81DIYamwyKZ09ISF5MFrw.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Avengers",
+    "Description": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+    "Genre": {
+      "Name": "Science Fiction",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Joss Whedon",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Pleasure",
+    "Description": "19 year old Linnéa leaves her small town in Sweden and heads for Los Angeles with the aim of becoming the world's next big porn star, but the road to her goal turns out to be bumpier than she imagined.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Ninja Thyberg",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/TcOsu6iO5prSJbDn9oIQgIW655.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Harry Potter and the Philosopher's Stone",
+    "Description": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard—with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths—and about the villain who's to blame.",
+    "Genre": {
+      "Name": "Adventure",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Chris Columbus",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Van Gogh by Vincent",
+    "Description": "In a career that lasted only ten years, Vincent Van Gogh painted one subject more than any other: himself. This is the story of Vincent told using eight of his most iconic self-portraits.",
+    "Genre": {
+      "Name": "Documentary",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Richard Shaw",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/z73X4WKZghBh5fri31o8P6vBEB2.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "John Wick: Chapter 4",
+    "Description": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Chad Stahelski",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Titanic",
+    "Description": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fiancé. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death—on its first and last voyage—on April 15, 1912.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "James Cameron",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Fast X",
+    "Description": "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Louis Leterrier",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/fiVW06jE7z9YnO4trhaMEdclSiC.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Couple Exchange",
+    "Description": "Nan-hee, who wants to enjoy her newlywed life, feels something wrong with her husband, Moo-yeong's body. No matter how much she tries to seduce him every night, Moo-yeong is unable to use his strength. One day, Nan-hee's high school classmate Yoo-na moves in next door. Nan-hee begins to heal Moo-yeong through Yoo-na's shocking suggestion.",
+    "Genre": {
+      "Name": "Romance",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jang Kwon",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/7WFlsCBnVyVfJxZWprAkU4poCaJ.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Open",
+    "Description": "The perfect summer turns into a blood-soaked nightmare as counselors at an isolated camp are hunted by a killer and the truth behind the murders is darker than anyone imagined. If the killer doesn't get you, the drama definitely will.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "David Saban",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/A7TXvimVRgGiKsviUopqPLr3fY1.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Superman",
+    "Description": "Mild-mannered Clark Kent works as a reporter at the Daily Planet alongside his crush, Lois Lane. Clark must summon his superhero alter-ego when the nefarious Lex Luthor launches a plan to take over the world.",
+    "Genre": {
+      "Name": "Science Fiction",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Richard Donner",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/d7px1FQxW4tngdACVRsCSaZq0Xl.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Lilo & Stitch",
+    "Description": "As Stitch, a runaway genetic experiment from a faraway planet, wreaks havoc on the Hawaiian Islands, he becomes the mischievous adopted alien \"puppy\" of an independent little girl named Lilo and learns about loyalty, friendship, and ʻohana, the Hawaiian tradition of family.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Chris Sanders",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/m13Vbzv7R2GMAl3GXFrkmMEgCFQ.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Oppenheimer",
+    "Description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Christopher Nolan",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Eden",
+    "Description": "Driven by a deep desire for change, a group of people left society to forge a new future in the harsh landscape of the Galapagos.",
+    "Genre": {
+      "Name": "Thriller",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Ron Howard",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/a4eOEvtsunTot0p2L88VMcIpnQX.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Exterritorial",
+    "Description": "When her son vanishes inside a US consulate, ex-special forces soldier Sara does everything in her power to find him — and uncovers a dark conspiracy.",
+    "Genre": {
+      "Name": "Thriller",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Christian Zübert",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/micQGmD3K7Ni0wzyaSgBKGxrFWn.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Ask Me What You Want",
+    "Description": "After his father's death, Eric Zimmerman travels to Spain to oversee his company's branches. In Madrid, he falls for Judith and engage in an intense, erotic relationship full of exploration. However, Eric fears his secret may end their affair.",
+    "Genre": {
+      "Name": "Romance",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Lucía Alemany",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/6MsRwOG96qs5KtPjxVuvMcUPjdU.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Barbie",
+    "Description": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Greta Gerwig",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Let's Go To Rose Motel",
+    "Description": "Seong-soo hasn't had any physical contact with his girlfriend yet after 6 months of being together so he's always excited to see her. One day, Seong-soo succeeds in getting Min-ae into Rose Motel. When he is about to shower, Seong-soo discovers a small hole in the wall leading to the next room and watches the couple next door having intercourse. Seong-soo continues to watch out of curiosity but realizes he just watched celebrity Sara giving sexual favors to a big shot politician...",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Sin Jeong-gyoon",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/8ogCczLG6EhQEnSWoqs6092bGm3.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Lord of the Rings: The Fellowship of the Ring",
+    "Description": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+    "Genre": {
+      "Name": "Adventure",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Peter Jackson",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "The Monkey",
+    "Description": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cursed toy.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Osgood Perkins",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/yYa8Onk9ow7ukcnfp2QWVvjWYel.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Avengers: Infinity War",
+    "Description": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+    "Genre": {
+      "Name": "Adventure",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Joe Russo",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Sew Torn",
+    "Description": "A seamstress gets tangled in her own thread after stealing a briefcase from a drug deal gone bad. In an escalating game of cat and mouse, her different choices lead to drastically different outcomes along the way.",
+    "Genre": {
+      "Name": "Thriller",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Freddy Macdonald",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/QhxWKts3s4OJxETj6i7kFpQkM4.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Alcove",
+    "Description": "In 1936 Italy, Elio returns home from Africa with a present for his wife in the form of Zerbal, the daughter of a tribal king. Unbeknown to him, his neglected wife Alessandra has formed a relationship with Elio’s otherwise frigid secretary Velma who is less than pleased at Elio’s return.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Joe D'Amato",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/ipFdgjiF3wsDB8NdoLxloFEeHYl.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Gladiator II",
+    "Description": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist. With rage in his heart and the future of the Empire at stake, Lucius must look to his past to find strength and honor to return the glory of Rome to its people.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Ridley Scott",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Kraven the Hunter",
+    "Description": "Kraven Kravinoff's complex relationship with his ruthless gangster father, Nikolai, starts him down a path of vengeance with brutal consequences, motivating him to become not only the greatest hunter in the world, but also one of its most feared.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "J.C. Chandor",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/i47IUSsN126K11JUzqQIOi1Mg1M.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Legend of Ochi",
+    "Description": "In a remote village on the island of Carpathia, a shy farm girl named Yuri is raised to fear an elusive animal species known as ochi. But when Yuri discovers a wounded baby ochi has been left behind, she escapes on a quest to bring him home.",
+    "Genre": {
+      "Name": "Family",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Isaiah Saxon",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/wVujUVvY4qvKARAslItQ4ARKqtz.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Female Teacher: In Front of the Students",
+    "Description": "The lovely Reiko has taken a new teaching job at a creepy old high school.  She is an extremely attractive woman and the young students in her class have fallen for her.  One night, after tennis practice, she is brutally assaulted in the locker room shower by a man with a stocking over his face.  Left on the floor naked and in shock, she discovers a single puzzle piece left behind by the crazed man.  A few days later, a pair of students enact a perverted sexual revenge on Reiko for kicking someone off the tennis team.  Could one of these students be the man who brutalized her in the locker room?  Who owns the strange puzzle piece?  As the mystery unfolds, Reiko must come to terms with her own sexual urges and fate.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Yasuaki Uegaki",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/ilMXOocCCwPWCcDLLa6M0ga8vWt.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Dune: Part Two",
+    "Description": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+    "Genre": {
+      "Name": "Science Fiction",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Denis Villeneuve",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Ask Me What You Want",
+    "Description": "After his father's death, Eric Zimmerman travels to Spain to oversee his company's branches. In Madrid, he falls for Judith and engage in an intense, erotic relationship full of exploration. However, Eric fears his secret may end their affair.",
+    "Genre": {
+      "Name": "Romance",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Lucía Alemany",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/6MsRwOG96qs5KtPjxVuvMcUPjdU.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Anora",
+    "Description": "A young sex worker from Brooklyn gets her chance at a Cinderella story when she meets and impulsively marries the son of an oligarch. Once the news reaches Russia, her fairytale is threatened as his parents set out to get the marriage annulled.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Sean Baker",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/7MrgIUeq0DD2iF7GR6wqJfYZNeC.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Jurassic Park",
+    "Description": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+    "Genre": {
+      "Name": "Adventure",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Steven Spielberg",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/63viWuPfYQjRYLSZSZNq7dglJP5.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Café 404",
+    "Description": "In the barren stretch of the motorway, Jimmy’s family diner is on the verge of extinction—until a botched drug deal drops a bag of cash into his lap. Now, Jimmy must navigate the dangerous underworld of gangsters, shady cops, and his own treacherous staff to save the business he’s clung to his entire life. With a mix of crime, thriller, and dark comedy, Jimmy and his eccentric crew—Mara, Nicko, and Abi—must outsmart the criminals closing in, all while struggling with their own growing desires for the cash. It’s a game of survival, where no one plays fair.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Alexandros Tsilifonis",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/k6ZqC43iOkr54DeITafF9nLTqEQ.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Don Jon",
+    "Description": "A New Jersey guy dedicated to his family, friends, and church, develops unrealistic expectations from watching porn and works to find happiness and intimacy with his potential true love.",
+    "Genre": {
+      "Name": "Romance",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Joseph Gordon-Levitt",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/uh8bwvgGXeUKzdL4oSul9zxyTcd.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "My Old Ass",
+    "Description": "An 18th birthday mushroom trip brings free-spirited Elliott face-to-face with her wisecracking 39-year-old self. But when Elliott’s \"old ass\" starts handing out warnings about what her younger self should and shouldn't do, Elliott realizes she has to rethink everything about family, love, and what's becoming a transformative summer.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Megan Park",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/yUs4Sw9AyTg2sA1qWBkNpD2mGSj.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Gladiator II",
+    "Description": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist. With rage in his heart and the future of the Empire at stake, Lucius must look to his past to find strength and honor to return the glory of Rome to its people.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Ridley Scott",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Maze Runner",
+    "Description": "Set in a post-apocalyptic world, young Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow “runners” for a shot at escape.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Wes Ball",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/ode14q7WtDugFDp78fo9lCsmay9.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Shawshank Redemption",
+    "Description": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Frank Darabont",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Man of Steel",
+    "Description": "A young boy learns that he has extraordinary powers and is not of this earth. As a young man, he journeys to discover where he came from and what he was sent here to do. But the hero in him must emerge if he is to save the world from annihilation and become the symbol of hope for all mankind.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Zack Snyder",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/8GFtkImmK0K1VaUChR0n9O61CFU.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Inception",
+    "Description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Christopher Nolan",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Wicked",
+    "Description": "In the land of Oz, ostracized and misunderstood green-skinned Elphaba is forced to share a room with the popular aristocrat Glinda at Shiz University, and the two's unlikely friendship is tested as they begin to fulfill their respective destinies as Glinda the Good and the Wicked Witch of the West.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jon M. Chu",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/xDGbZ0JJ3mYaGKy4Nzd9Kph6M9L.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Flight Risk",
+    "Description": "A U.S. Marshal escorts a government witness to trial after he's accused of getting involved with a mob boss, only to discover that the pilot who is transporting them is also a hitman sent to assassinate the informant. After they subdue him, they're forced to fly together after discovering that there are others attempting to eliminate them.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Mel Gibson",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/q0bCG4NX32iIEsRFZqRtuvzNCyZ.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Africa Blood and Guts",
+    "Description": "A chronicle of the violence that occurred in much of the African continent throughout the 1960s. As many African countries were transitioning from colonial rule to other forms of government, violent political upheavals were frequent. Revolutions in Zanzibar and Kenya in which thousands were killed are shown, the violence not only political; there is also extensive footage of hunters and poachers slaughtering different types of wild animals.",
+    "Genre": {
+      "Name": "Documentary",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Gualtiero Jacopetti",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/fPLzCid2gk7eOCrYlXIBU24bTpO.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "Description": "Siblings Lucy, Edmund, Susan and Peter step through a magical wardrobe and find the land of Narnia. There, they discover a charming, once peaceful kingdom that has been plunged into eternal winter by the evil White Witch, Jadis. Aided by the wise and magnificent lion, Aslan, the children lead Narnia into a spectacular, climactic battle to be free of the Witch's glacial powers forever.",
+    "Genre": {
+      "Name": "Adventure",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Andrew Adamson",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/iREd0rNCjYdf5Ar0vfaW32yrkm.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Barbie",
+    "Description": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Greta Gerwig",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Spider-Man: Across the Spider-Verse",
+    "Description": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse’s very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Kemp Powers",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "The Adolescent",
+    "Description": "In the summer of 1939, 13-year-old Marie goes with her parents to visit her grandparents in a small town near Avignon. Marie discovers her femininity and falls for a young Jewish doctor, but he prefers Eva, Marie's mother.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jeanne Moreau",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/v7yCEzF9BCF82lbp42X5ZLjIieo.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Frankie Freako",
+    "Description": "After calling a late-night party hotline that promises out-of-this-world fun, uptight yuppie Conor Sweeney must battle the pint-sized forces of evil unleashed through his phone line, led by the maniacal rock n’ roll goblin FRANKIE FREAKO.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Steven Kostanski",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/8xjOFXj0CHy5Mp6Wfsr2iIXTtZ5.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Intimacy",
+    "Description": "Failed musician Jay abandoned his family and now earns a living as head bartender in a trendy London pub. Every Wednesday afternoon, a woman comes to his house for graphic, almost wordless, sex. One day, Jay follows her and learns about her. This eventually disrupts their relationship.",
+    "Genre": {
+      "Name": "Romance",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Patrice Chéreau",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/I0mlv1FahaLJqu2ByffMXEn4NN.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Fernanda",
+    "Description": "An angry Latinx dyke in her twenties wants to make the world a better place, but can barely keep her own life together. Fernanda and her friends deconstruct their lives, fuck them up, and then continue to deconstruct them.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Mary Angélica Molina",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/q1eUNZ55yINqWZwSdzFQNSwKJiK.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Fifty Shades of Grey",
+    "Description": "When college senior Anastasia Steele steps in for her sick roommate to interview prominent businessman Christian Grey for their campus paper, little does she realize the path her life will take. Christian, as enigmatic as he is rich and powerful, finds himself strangely drawn to Ana, and she to him. Though sexually inexperienced, Ana plunges headlong into an affair -- and learns that Christian's true sexual proclivities push the boundaries of pain and pleasure.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Sam Taylor-Johnson",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Kalakal",
+    "Description": "A seductive female garbage collector who embraces the life of an escort lady. Desperate to live a comfortable life, she leaves the dumpsite and enters the club. But can she also dump both her brother and her lover who remind her of her past?",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Roman Perez Jr.",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/KwhyuZn24FOs4Dl52g9KLpS48a.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Possessions",
+    "Description": "Follows a father who seeks a fresh start with his son after the loss of his wife, and purchased a storage unit facility sight unseen, but secrets buried behind the metal doors become a parent's worst nightmare.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Brent Cote",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/39a7zYZvkGfs7EOVVK3dQlWyYJ0.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Novocaine",
+    "Description": "When the girl of his dreams is kidnapped, everyman Nate turns his inability to feel pain into an unexpected strength in his fight to get her back.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Dan Berk",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/xmMHGz9dVRaMY6rRAlEX4W0Wdhm.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Serena the Sexplorer",
+    "Description": "Lusty, luscious interstellar visitor Serena comes to Earth to satisfy her deepest desires in this erotic tale.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Steve Goldenberg",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/fYXtxAJBBnxpPMCzJyEfLGqzFfe.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Alien: Romulus",
+    "Description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Fede Álvarez",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Dark Knight",
+    "Description": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Christopher Nolan",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "The Super Mario Bros. Movie",
+    "Description": "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
+    "Genre": {
+      "Name": "Family",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Aaron Horvath",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Spider-Man: Across the Spider-Verse",
+    "Description": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse’s very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Kemp Powers",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Spider-Man: No Way Home",
+    "Description": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jon Watts",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Mickey 17",
+    "Description": "Unlikely hero Mickey Barnes finds himself in the extraordinary circumstance of working for an employer who demands the ultimate commitment to the job… to die, for a living.",
+    "Genre": {
+      "Name": "Science Fiction",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Bong Joon Ho",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/edKpE9B5qN3e559OuMCLZdW1iBZ.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Proposal",
+    "Description": "When she learns she's in danger of losing her visa status and being deported, overbearing book editor Margaret Tate forces her put-upon assistant, Andrew Paxton, to marry her.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Anne Fletcher",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/aEqtJDj8MvSDQwzggvcOfFTZMw.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Wonder Woman",
+    "Description": "An Amazon princess comes to the world of Man in the grips of the First World War to confront the forces of evil and bring an end to human conflict.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Patty Jenkins",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/v4ncgZjG2Zu8ZW5al1vIZTsSjqX.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Red One",
+    "Description": "After Santa Claus (codename: Red One) is kidnapped, the North Pole's Head of Security must team up with the world's most infamous tracker in a globe-trotting, action-packed mission to save Christmas.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jake Kasdan",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/cdqLnri3NEGcmfnqwk2TSIYtddg.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "Description": "After Port Royal is attacked and pillaged by a mysterious pirate crew, capturing the governor's daughter Elizabeth Swann in the process, William Turner asks free-willing pirate Jack Sparrow to help him locate the crew's ship—The Black Pearl—so that he can rescue the woman he loves.",
+    "Genre": {
+      "Name": "Adventure",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Gore Verbinski",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Don Jon",
+    "Description": "A New Jersey guy dedicated to his family, friends, and church, develops unrealistic expectations from watching porn and works to find happiness and intimacy with his potential true love.",
+    "Genre": {
+      "Name": "Romance",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Joseph Gordon-Levitt",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/uh8bwvgGXeUKzdL4oSul9zxyTcd.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Coraline",
+    "Description": "Wandering her rambling old house in her boring new town, 11-year-old Coraline discovers a hidden door to a strangely idealized version of her life. In order to stay in the fantasy, she must make a frighteningly real sacrifice.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Henry Selick",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Squid Game: Fireplace",
+    "Description": "Come share a toast in the Front Man's lair — but tread carefully, for you’re playing with fire.",
+    "Genre": {
+      "Name": "Family",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/cIIMvxLztRs1MbXH0oqaw3SGV0q.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Coraline",
+    "Description": "Wandering her rambling old house in her boring new town, 11-year-old Coraline discovers a hidden door to a strangely idealized version of her life. In order to stay in the fantasy, she must make a frighteningly real sacrifice.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Henry Selick",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Companion",
+    "Description": "During a weekend getaway at a secluded lakeside estate, a group of friends finds themselves entangled in a web of secrets, deception, and advanced technology. As tensions rise and loyalties are tested, they uncover unsettling truths about themselves and the world around them.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Drew Hancock",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/oCoTgC3UyWGfyQ9thE10ulWR7bn.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "A Quiet Place: Day One",
+    "Description": "As New York City is invaded by alien creatures who hunt by sound, a woman named Sam fights to survive with her cat.",
+    "Genre": {
+      "Name": "Horror",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Michael Sarnoski",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Mission: Impossible - Dead Reckoning Part One",
+    "Description": "Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the world's fate at stake and dark forces from Ethan's past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan must consider that nothing can matter more than his mission—not even the lives of those he cares about most.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Christopher McQuarrie",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Brave Citizen",
+    "Description": "An expelled boxing champion, who now is a high-school teacher, witnesses intolerable violence and throws her first punch to build justice against it, while putting on a mask.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Park Jin-pyo",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/ixQoOExnnvIxYvnqGgfhaWqXeXc.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Iron Man",
+    "Description": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jon Favreau",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Devara: Part 1",
+    "Description": "Devara, a fearless man from a coastal region, embarks on a perilous journey into the treacherous world of the sea to safeguard the lives of his people. Unbeknownst to him, his brother Bhaira is plotting a conspiracy against him. As events unfold, Devara passes on his legacy to his mild-mannered and timid son, Varada.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Koratala Siva",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/lQfuaXjANoTsdx5iS0gCXlK9D2L.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Mickey 17",
+    "Description": "Unlikely hero Mickey Barnes finds himself in the extraordinary circumstance of working for an employer who demands the ultimate commitment to the job… to die, for a living.",
+    "Genre": {
+      "Name": "Science Fiction",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Bong Joon Ho",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/edKpE9B5qN3e559OuMCLZdW1iBZ.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Forrest Gump",
+    "Description": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Robert Zemeckis",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Road House",
+    "Description": "Ex-UFC fighter Dalton takes a job as a bouncer at a Florida Keys roadhouse, only to discover that this paradise is not all it seems.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Doug Liman",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/fDEdtS4P0gJsxHDIt8dG8TR5dx1.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "The Hangover",
+    "Description": "When three friends finally come to after a raucous night of bachelor-party revelry, they find a baby in the closet and a tiger in the bathroom. But they can't seem to locate their best friend, Doug – who's supposed to be tying the knot. Launching a frantic search for Doug, the trio perseveres through a nasty hangover to try to make it to the church on time.",
+    "Genre": {
+      "Name": "Comedy",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Todd Phillips",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/A0uS9rHR56FeBtpjVki16M5xxSW.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Victoria",
+    "Description": "Victoria, a young beautician in a suburban beauty parlour, decides to elope with her Hindu boyfriend after a fierce clash with her conservative Catholic parents. Amidst the turmoil, a neighbour asks her to temporarily house an offering rooster destined for a festival at St. George church inside the parlour. Juggling the rooster's antics, unexpected clients, and her boyfriend's uncertainty, Victoria grapples with conflicting emotions leading to a day of intense personal and spiritual revelations.",
+    "Genre": {
+      "Name": "Drama",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Sivaranjini J",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/hw09PdM2o7pF1zxn1pM8NTMPzno.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Red One",
+    "Description": "After Santa Claus (codename: Red One) is kidnapped, the North Pole's Head of Security must team up with the world's most infamous tracker in a globe-trotting, action-packed mission to save Christmas.",
+    "Genre": {
+      "Name": "Action",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jake Kasdan",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/cdqLnri3NEGcmfnqwk2TSIYtddg.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "Description": "After Port Royal is attacked and pillaged by a mysterious pirate crew, capturing the governor's daughter Elizabeth Swann in the process, William Turner asks free-willing pirate Jack Sparrow to help him locate the crew's ship—The Black Pearl—so that he can rescue the woman he loves.",
+    "Genre": {
+      "Name": "Adventure",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Gore Verbinski",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Batman Ninja vs. Yakuza League",
+    "Description": "The Batman family has returned to the present to discover that Japan has disappeared, and a giant island - Hinomoto - is now in the sky over Gotham City.  At the top sit the Yakuza, a group of superpowered individuals who reign without honor or humanity and look suspiciously like the Justice League. Now, it’s up to Batman and his allies to save Gotham!",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Jumpei Mizusaki",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/sVVT6GYFErVv0Lcc9NvqCu0iOxO.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Harry Potter and the Prisoner of Azkaban",
+    "Description": "Year three at Hogwarts means new fun and challenges as Harry learns the delicate art of approaching a Hippogriff, transforming shape-shifting Boggarts into hilarity and even turning back time. But the term also brings danger: soul-sucking Dementors hover over the school, an ally of the accursed He-Who-Cannot-Be-Named lurks within the castle walls, and fearsome wizard Sirius Black escapes Azkaban. And Harry will confront them all.",
+    "Genre": {
+      "Name": "Adventure",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Alfonso Cuarón",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Shrek",
+    "Description": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+    "Genre": {
+      "Name": "Animation",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Andrew Adamson",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+    "Featured": true
+  },
+  {
+    "Title": "Woodwalkers",
+    "Description": "Humans who can shapeshift into animals struggle to integrate with others without giving away their special abilities. As a group, they strive to inform and institute change in the world perspective of deforestation and the importance of natural habitats. However, when that can’t happen, they are forced to take matters into their own hands.",
+    "Genre": {
+      "Name": "Family",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Damián John Harper",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/bC1r04ohuxv5feaGDzQ0lXz7Bbl.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Santosh",
+    "Description": "A government scheme sees newly widowed Santosh inherit her husband’s job as a police constable in the rural badlands of Northern India. When a low-caste girl is found raped and murdered, she is pulled into the investigation under the wing of charismatic feminist inspector Sharma.",
+    "Genre": {
+      "Name": "Crime",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Sandhya Suri",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/40J5YngC9sZ0u70ABjuM5H77aZP.jpg",
+    "Featured": false
+  },
+  {
+    "Title": "Dune",
+    "Description": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
+    "Genre": {
+      "Name": "Science Fiction",
+      "Description": ""
+    },
+    "Director": {
+      "Name": "Denis Villeneuve",
+      "Bio": "",
+      "Birth": null,
+      "Death": null
+    },
+    "ImagePath": "https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+    "Featured": true
+  }
+]

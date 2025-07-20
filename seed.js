@@ -1,46 +1,52 @@
 require('dotenv').config();
-const mongoose = require('mongoose');
+const fs = require('fs');
 const axios = require('axios');
-const Movie = require('./models/movie');
 
-mongoose.connect(process.env.MONGODB_URI, {
+const TMDB_API_KEY = process.env.TMDB_API_KEY;
+const BASE_URL = 'https://api.themoviedb.org/3';
 
-}).then(() => console.log('✅ MongoDB connected'))
-  .catch(err => console.error('❌ MongoDB connection error:', err));
+async function fetchMovies() {
+  const allMovies = [];
 
-async function fetchAndStoreMovies(pages) {
-  try {
-    for (let page = 1; page <= pages; page++) {
-    const response = await axios.get(`https://api.themoviedb.org/3/movie/popular`, {
-      params: {
-        api_key: process.env.TMDB_API_KEY,
-        language: 'en-US',
-        page
-      }
+  for (let page = 1; page <= 10; page++) {
+    const res = await axios.get(`${BASE_URL}/movie/popular`, {
+      params: { api_key: TMDB_API_KEY, page }
     });
 
-    const movies = response.data.results;
-
-    for (let movie of movies) {
-      const newMovie = new Movie({
-        title: movie.title,
-        overview: movie.overview,
-        release_date: movie.release_date,
-        genre_ids: movie.genre_ids,
-        poster_path: movie.poster_path,
-        tmdb_id: movie.id
+    for (const movie of res.data.results) {
+      const details = await axios.get(`${BASE_URL}/movie/${movie.id}`, {
+        params: { api_key: TMDB_API_KEY }
       });
 
-      await newMovie.save();
-      console.log(`✅ Saved: ${movie.title}`);
-        }
-    }
+      const credits = await axios.get(`${BASE_URL}/movie/${movie.id}/credits`, {
+        params: { api_key: TMDB_API_KEY }
+      });
 
-    console.log('🎉 All movies added!');
-    mongoose.disconnect();
-  } catch (error) {
-    console.error('❌ Error fetching/saving movies:', error.message);
+      const director = credits.data.crew.find(p => p.job === 'Director');
+
+      allMovies.push({
+        Title: details.data.title,
+        Description: details.data.overview,
+        Genre: {
+          Name: details.data.genres[0]?.name || 'Unknown',
+          Description: ''
+        },
+        Director: {
+          Name: director?.name || '',
+          Bio: '',
+          Birth: null,
+          Death: null
+        },
+        ImagePath: details.data.poster_path
+          ? `https://image.tmdb.org/t/p/w500${details.data.poster_path}`
+          : '',
+        Featured: details.data.vote_average >= 7.5
+      });
+    }
   }
+
+  fs.writeFileSync('movies.json', JSON.stringify(allMovies, null, 2));
+  console.log('✅ Saved movies.json with', allMovies.length, 'movies');
 }
 
-fetchAndStoreMovies(500);
+fetchMovies().catch(console.error);
