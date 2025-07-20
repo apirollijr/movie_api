@@ -1,20 +1,21 @@
 const mongoose = require('mongoose');
 
 const movieSchema = new mongoose.Schema({
-  Title: String,
-  Description: String,
+  Title: { type: String, required: true },
+  Description: { type: String, required: true },
   Genre: {
-    Name: String,
-    Description: String
+    Name: { type: String, required: true },
+    Description: { type: String }
   },
   Director: {
-    Name: String,
-    Bio: String,
-    Birth: Date,
-    Death: Date
+    Name: { type: String },
+    Bio: { type: String },
+    Birth: { type: Date },
+    Death: { type: Date }
   },
-  ImagePath: String,
-  Featured: Boolean
+  ImagePath: { type: String },
+  Featured: { type: Boolean, default: false }
 });
 
 module.exports = mongoose.models.Movie || mongoose.model('Movie', movieSchema);
+
